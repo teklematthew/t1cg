@@ -1,0 +1,43 @@
+h1 {
+  color: purple;
+}
+
+p {
+  font-weight: bold;
+}
+h2 {
+  color: rgb(52, 116, 0);
+}
+
+.App {
+  text-align: center;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Ser­avek, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+.PhoneNum {
+  font-style: oblique;
+}
+
+.Username {
+  font-weight: bold;
+  background-color: burlywood;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.Name {
+  font-style: italic;
+  background-color: pink;
+}
+
+.grid-even-columns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 50% 1fr 1fr;
+  background-color: rgb(5, 255, 255);
+}
